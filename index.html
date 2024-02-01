@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Will You Be My Valentine?</h1>
+    <p id="yesResponse" style="display: none;">🤭🤭🤭</p>
+    <div id="giftCardSection" style="display: none;">
+    <p>🎉DoorDash On Me🎉:</p>
+    <input type="text" id="giftCardCode" readonly />
+</div>
+    <!-- New question section -->
+<div id="questionSection" style="display: none;">
+    <p>What is the name of our song?</p>
+    <input type="text" id="songNameInput" />
+    <button id="submitAnswer">Submit</button>
+</div>
+
+    <p id="noResponse" style="display: none;">You know better.</p>
+    <button id="yesBtn">Yes</button>
+    <button id="noBtn">No</button>
+    <!-- Embedding the audio file -->
+    <audio id="buzzerSound" src="buzzer.mp3"></audio>
+    <audio id="correctSound" src="correct.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
